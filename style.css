@@ -65,20 +65,19 @@ video
     .player-container 
         {   
             height: 400px;
-            width: 90px;
-            border-radius: 0.6rem;
+            width: 200px;
             align-items: center;
             display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
+            flex-direction: row;
         }
-    .player-container button
+
+    .player 
         {
-            height: 50px;
-            width: 90px;
-            border-radius: 0.6rem;
-            padding: 8px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
             align-items: center;
+            justify-content: space-between;
         }
     .mood-container 
         {
@@ -87,13 +86,43 @@ video
             border-radius: 0.6rem;
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            justify-content: space-around;
+            align-items: center;
         }
     .mood-container button
         {
             height: 50px;
             width: 90px;
-            border-radius: 0.6rem;
-            padding: 8px;
+            
             align-items: center; 
+        }
+.playpause
+        {
+            background: transparent;
+            border: none;
+        }
+
+#pause{
+    display: none;
+}
+.restart
+        {
+            background: transparent;
+            border: none;
+            position: relative;
+        }
+.Sunny 
+        {
+            background: transparent;
+            border: none;
+        }
+.Rain 
+        {
+            background: transparent;
+            border: none;
+            display: flex;
+        }
+.player h3 
+        {
+            color: white;
         }
